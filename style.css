@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .nav {
@@ -49,7 +49,7 @@ ul {
 }
 
 .hero-container .hero {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     width: 500px;
 }
@@ -60,7 +60,6 @@ ul {
 
 img {
     width: 100%;
-    flex: 1;
 }
 
 h1 {
@@ -72,6 +71,32 @@ h1 {
 p {
     color: #e5e7eb;
 }
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-con {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+    flex: 1;
+    gap: 15px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.box-text {
+    width: 50%;
+}
+ 
 
 .footer {
     display: flex;
