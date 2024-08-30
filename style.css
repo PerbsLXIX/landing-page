@@ -127,7 +127,7 @@ p, button {
 .box-text img {
     display: flex;
     border: 2px solid blue;
-    border-radius: 10px;
+    border-radius: 15px;
     max-width: 200px;
     height: 200px;
 }
